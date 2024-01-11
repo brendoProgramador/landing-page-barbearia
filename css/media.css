@@ -1,0 +1,222 @@
+/* medias query     */
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+    /* Início Header */
+    header{
+        overflow: hidden;
+        width: 100vw;
+        height: 915px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../assets/bg.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+    
+    }
+    .header-container-icones{
+        width: 95vw;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 196px;
+    }
+    .header-icones-redes-sociais i{
+        font-size: 30px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    .header-container-icones button{
+       display: none;
+    }
+    .header-icones-redes-sociais,img, button{
+        margin-top: 20px;
+    }
+    header h1{
+        width: 273px;
+        text-align: center;
+        margin-top: 100px;
+        line-height: 38px;
+        color: white;
+        font-size: 1.1rem;
+    }
+    
+    header p{
+
+        font-size: 14px;
+        color: white;
+    }
+    .button-agenda{
+        background: red;
+        border-radius: 10px;
+        margin-top: 50px;
+        cursor: pointer;
+        color: white;
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+        border: none;
+    }
+    .button-agenda:hover{
+        transition: all 1s;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-top: 50px;
+        cursor: pointer;
+        color: rgb(255, 0, 0);
+        width: 160px;
+        height: 50px;
+        border: none;
+    }
+    
+    /* Início Fim Header */
+    
+    
+    /* Início Section Sobre */
+    
+    .section-container{
+        
+        width: 100%;
+        height: 506px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: #06121E;
+        
+    }
+    .section-container img{
+        
+     width: 80vw;
+        
+    }
+    .section-container h2,p{
+        color: white;
+    }
+    
+    .section-container img{
+        position: relative;
+        top: -300px;
+        
+    }
+    .section-sobre{
+        margin-top: -300px;
+        width: 80vw;
+        
+    }
+    .section-sobre p{
+        line-height: 27px;
+        margin-top: 20px;
+    }
+    
+    /* Início Fim Section Sobre */
+    
+    
+    /* Início Serviços */
+    
+    .section-servico{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 2415px;
+    
+    }
+    .section-servico h1{
+       margin-top: 50px;
+    }
+    .section-serviço-p1{
+        text-align: left;
+        line-height: 27px;
+        width: 300px;
+        color: black;
+    }
+    .container-conteudo{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .container-card{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 300px;
+        margin-top: 20px;
+        height: 389px;
+        box-shadow: 10px 10px 10px black;
+    }
+    
+    .card-img1{
+        background-image: url("../assets/corte1.png");
+        border-radius: 10px 10px 0px 0px;
+        width: 300px;
+        height: 300px;  
+    }
+    .card-img2{
+        background-image: url("../assets/corte2.png");
+        border-radius: 10px 10px 0px 0px;
+        width: 300px;
+        height: 300px;  
+    }
+    .card-img3{
+        background-image: url("../assets/corte3.png");
+        border-radius: 10px 10px 0px 0px;
+        width: 300px;
+        height: 300px;  
+    }
+    
+    .section-preco{
+        width: 90%;
+        margin-top: 40px;
+        display: flex;
+        height: 40px;
+        justify-content: space-between;
+    }
+    .section-real{
+        background: red;
+        border-radius: 5px;
+        color: white;
+        padding: 5px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .local-h2{
+        margin-top: 100px;
+    }
+    
+    iframe{
+        margin-top: 50px;
+        width: 100%;
+        height: 1500px;
+    }
+    .section-contatos{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #06121E; 
+    }
+    .contatos-icones-redes-sociais{
+        margin-top: 50px;
+    }
+    .contatos-icones-redes-sociais i{
+    font-size: 30px;
+    }
+    
+    .whatsapp{
+        position: fixed;
+        margin-right: 10px;
+        right: 0;
+        bottom: 0;
+    }
+    .whatsapp img{
+      width: 60px;
+    }
+}
+
+
